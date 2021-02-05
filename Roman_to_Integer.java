@@ -20,7 +20,6 @@ class Solution {
         Roman_to_Integer.put("M", 1000);
         
         int result = 0;
-        int count = 0 ;
         
         while(new_s.length() > 0){
             

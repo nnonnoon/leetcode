@@ -11,7 +11,7 @@ class Solution {
         int count = Value.length - 1;
         
         while(num > 0){
-            int tmp = num / Value[count];  // หารเอาส่วน
+            int tmp = num / Value[count];  // หารเอาผล
             num = num % Value[count];   // หารเอาเศษ
             
             while(tmp > 0){

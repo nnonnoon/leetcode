@@ -8,8 +8,3 @@ def binary_tree_path(cur, res):
                 
 ans = []
 binary_tree_path(root, [])
-
-#
-# test = ["noon", "hello", "jarawee"]
-# x = "->".join(test)
-# print(x)

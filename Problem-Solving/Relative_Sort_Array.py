@@ -31,6 +31,15 @@ for key in tmp:
 
 print(res)
 
+# ans=[]
+# for i in arr2:
+#     while i in arr1:
+#         arr1.remove(i)
+#         ans.append(i)
+# arr1.sort()
+# ans = ans + arr1
+
+# print(ans)
 
 
 

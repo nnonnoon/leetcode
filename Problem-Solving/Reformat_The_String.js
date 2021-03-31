@@ -29,9 +29,9 @@ else if(keep_str.length - 1 === keep_int.length){
 
 else if(keep_int.length - 1 === keep_str.length){
     for(let i = 0 ; i < keep_str.length ; i++){
-        new_str = new_str.concat(keep_str[i], keep_int[i]);
+        new_str = new_str.concat(keep_int[i], keep_str[i]);
     }
-    new_str = new_str.concat(keep_str[keep_int.length - 1]);
+    new_str = new_str.concat(keep_int[keep_int.length - 1]);
 }else{
     new_str = '""';
 }

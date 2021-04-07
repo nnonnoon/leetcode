@@ -55,5 +55,8 @@ var bitwiseComplement = function(N) {
 let res = bitwiseComplement(5)
 console.log(res)
 
+console.log(parseInt("2px"))
+
+
 
 
